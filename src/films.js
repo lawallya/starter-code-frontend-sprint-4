@@ -1,8 +1,39 @@
 // Exercise 1: Get the array of all directors.
 function getAllDirectors(array) {
-  let result =  ???;
+  /*let result =  ;
   console.log("EXERCICE 1 ->", result);
-  return result;
+
+  return result;*/
+  //SOLUCION 1, CON WHILE
+ /* const result = movies.map(pelicula => pelicula.director);
+    console.table(result);
+    let long= result.length;
+    let i = 0;
+  
+    result.sort();
+    console.table(result);
+  while (i < long){
+    if ( result[i] === result[i+1]){ result.splice[i+1, 1]}
+    else { i++}
+  }
+  console.table(result);
+  return result;*/
+// SOLUCION 2: 
+let result = movies.map(pelicula => pelicula.director);
+result.sort(); //ordena el array alfabeticamente.
+resultado = result.reduce(funcion,vableInicialización);
+//¿tengo que definir el array vacio que voy a rellenar?
+ function(array, elemento){
+  array.find(e);
+  result.forEach()
+
+ }
+
+
+
+
+
+
 }
 
 // Exercise 2: Get the films of a certain director
