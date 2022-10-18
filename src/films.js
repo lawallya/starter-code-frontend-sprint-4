@@ -1,74 +1,61 @@
 // Exercise 1: Get the array of all directors.
 function getAllDirectors(array) {
-  /*let result =  ;
-  console.log("EXERCICE 1 ->", result);
-
-  return result;*/
-  //SOLUCION 1, CON WHILE
- /* const result = movies.map(pelicula => pelicula.director);
-    console.table(result);
-    let long= result.length;
-    let i = 0;
-  
+  console.log(getAllDirectors);
+    const result = movies.map(pelicula => pelicula.director);
     result.sort();
-    console.table(result);
-  while (i < long){
-    if ( result[i] === result[i+1]){ result.splice[i+1, 1]}
-    else { i++}
-  }
-  console.table(result);
-  return result;*/
-// SOLUCION 2: 
-let result = movies.map(pelicula => pelicula.director);
-result.sort(); //ordena el array alfabeticamente.
-resultado = result.reduce(funcion,vableInicialización);
-//¿tengo que definir el array vacio que voy a rellenar?
- function(array, elemento){
-  array.find(e);
-  result.forEach()
-
- }
-
-
-
-
-
-
+    //console.table(result);//devuelve el array con los directores ordenados alfabéticamente, pero sin simplificar
+    return result; 
 }
+
+
 
 // Exercise 2: Get the films of a certain director
 function getMoviesFromDirector(array, director) {
- 
+  
+  return result;
+
 }
 
-// Exercise 3: Calculate the average of the films of a given director.
+// Exercise 3: Calculate the average of the films of a given director. Devuelve un numero con dos decimales.
 function moviesAverageOfDirector(array, director) {
-  
+
+
 }
 
 // Exercise 4:  Alphabetic order by title 
 function orderAlphabetically(array) {
-  
-}
-
-// Exercise 5: Order by year, ascending
-function orderByYear() {
 
 }
+
+// Exercise 5: Order by year, ascending 
+//y las peliculas de un mismo año ordenadas alfabéticamente
+function orderByYear(array) {
+
+
+
+
+
+
+}
+
+
 
 // Exercise 6: Calculate the average of the movies in a category
-function moviesAverageByCategory() {
+function moviesAverageByCategory(category, value) {
 
 }
 
-// Exercise 7: Modify the duration of movies to minutes
-function hoursToMinutes() {
+// Exercise 7: Modify the duration of movies to minutes, devuelve un nuevo array con las peliculas en minutos
+//tanto si en la duracion aparece en h y min, solo h o solo min.
+function hoursToMinutes(array) {
+
+
 
 }
 
 // Exercise 8: Get the best film of a year
-function bestFilmOfYear() {
-  
+function bestFilmOfYear(año) {
+
 }
 
 
